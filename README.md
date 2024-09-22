@@ -39,10 +39,10 @@ This project implements a Facial Keypoint Detection system that identifies and m
    pip install -r requirements.txt
 
 ## Usage
-Start the Streamlit app:
-    
-    ```bash
-        cd demo
-        streamlit run demo.py
+3. Start the Streamlit app:
+
+   ```bash
+   cd demo
+   streamlit run app.py
 
 Upload an image and observe the detected facial keypoints visualized on the image.
