@@ -42,7 +42,7 @@ This project implements a Facial Keypoint Detection system that identifies and m
 Start the Streamlit app:
     
     ```bash
-    cd demo
-    streamlit run demo.py
-    
+        cd demo
+        streamlit run demo.py
+
 Upload an image and observe the detected facial keypoints visualized on the image.
