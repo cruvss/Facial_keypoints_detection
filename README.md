@@ -39,7 +39,7 @@ This project implements a Facial Keypoint Detection system that identifies and m
    pip install -r requirements.txt
 
 ## Usage
-3. Start the Streamlit app:
+Start the Streamlit app:
 
    ```bash
    cd demo
