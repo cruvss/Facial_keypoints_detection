@@ -26,3 +26,23 @@ This project implements a Facial Keypoint Detection system that identifies and m
    ```bash
    git clone git@github.com:cruvss/Facial_keypoints_detection.git
    cd Facial-keypoint-detection
+
+2. Create a virtual environment (optional but recommended):
+    
+   ```bash
+   conda create -n facial_keypoints python=3.11 --yes
+   conda activate facial_keypoints 
+
+3. Install the required packages:
+
+   ```bash
+   pip install -r requirements.txt
+
+## Usage
+Start the Streamlit app:
+    
+    ```bash
+    cd demo
+    streamlit run demo.py
+    
+Upload an image and observe the detected facial keypoints visualized on the image.

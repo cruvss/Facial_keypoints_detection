@@ -1,4 +1,5 @@
 absl-py==2.1.0
+altair==5.4.1
 anyio==4.5.0
 argon2-cffi==23.1.0
 argon2-cffi-bindings==21.2.0
@@ -10,9 +11,12 @@ attrs==24.2.0
 babel==2.16.0
 beautifulsoup4==4.12.3
 bleach==6.1.0
+blinker==1.8.2
+cachetools==5.5.0
 certifi==2024.8.30
 cffi==1.17.1
 charset-normalizer==3.3.2
+click==8.1.7
 colorama==0.4.6
 comm==0.2.2
 contourpy==1.3.0
@@ -28,6 +32,8 @@ fonttools==4.53.1
 fqdn==1.5.1
 fsspec==2024.9.0
 gast==0.6.0
+gitdb==4.0.11
+GitPython==3.1.43
 google-pasta==0.2.0
 grpcio==1.66.1
 h11==0.14.0
@@ -70,6 +76,7 @@ mistune==3.0.2
 ml-dtypes==0.4.1
 mpmath==1.3.0
 namex==0.0.8
+narwhals==1.8.2
 nbclient==0.10.0
 nbconvert==7.16.4
 nbformat==5.10.4
@@ -92,7 +99,9 @@ prompt_toolkit==3.0.47
 protobuf==4.25.5
 psutil==6.0.0
 pure_eval==0.2.3
+pyarrow==17.0.0
 pycparser==2.22
+pydeck==0.9.1
 Pygments==2.18.0
 pyparsing==3.1.4
 python-dateutil==2.9.0.post0
@@ -110,10 +119,13 @@ rich==13.8.1
 rpds-py==0.20.0
 Send2Trash==1.8.3
 six==1.16.0
+smmap==5.0.1
 sniffio==1.3.1
 soupsieve==2.6
 stack-data==0.6.3
+streamlit==1.38.0
 sympy==1.13.3
+tenacity==8.5.0
 tensorboard==2.17.1
 tensorboard-data-server==0.7.2
 tensorflow==2.17.0
@@ -122,6 +134,7 @@ tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.4.0
 terminado==0.18.1
 tinycss2==1.3.0
+toml==0.10.2
 torch==2.4.1+cu118
 torchaudio==2.4.1+cu118
 torchvision==0.19.1
@@ -133,6 +146,7 @@ typing_extensions==4.12.2
 tzdata==2024.1
 uri-template==1.3.0
 urllib3==2.2.3
+watchdog==4.0.2
 wcwidth==0.2.13
 webcolors==24.8.0
 webencodings==0.5.1

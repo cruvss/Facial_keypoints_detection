@@ -27,7 +27,7 @@ class FacialKeyPointDetection:
         return img.to(self.device), img_disp
 
     def postprocess(self, img, kps):
-        # img = np.array(img)
+        img = np.array(img)
         width, height, _ = img.shape
         kp_x, kp_y = kps[:68] * width, kps[68:] * height
         return kp_x, kp_y
