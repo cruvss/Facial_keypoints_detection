@@ -45,6 +45,5 @@ Start the Streamlit app:
    ```bash
    cd demo
    streamlit run demo.py
-
-
+   ```
 Upload an image and observe the detected facial keypoints visualized on the image.
