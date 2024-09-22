@@ -15,9 +15,23 @@ image = st.file_uploader('Facial Image', ['jpg', 'png', 'jpeg'], accept_multiple
 if image is not None:
     image = Image.open(image).convert('RGB')
     st.image(image)
-    image, kp = FacialKeyPointDetection.predict(image)
+    detector = FacialKeyPointDetection()
+    image, kp = detector.predict(image)
 
     fig = plt.figure()
     plt.imshow(image)
     plt.scatter(kp[0], kp[1], s=4, c='r')
     st.pyplot(fig)
+ 
+
+
+
+
+
+
+
+
+
+
+
+
